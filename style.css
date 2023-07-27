@@ -8,7 +8,7 @@ main {
 .wrapper {
     width: 100%;
     margin: 0 auto;
-    min-height: 100px;
+    min-height: 110px;
 }
 
 .flex{
@@ -43,6 +43,7 @@ main {
 
 .banner {
     margin-left: 140px;
+    margin-bottom: 100px;
 }
 
 .name {
