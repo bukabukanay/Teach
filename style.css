@@ -214,6 +214,47 @@ main {
 }
 
 
+.work {
+    max-width: 100%;
+}
+
+.work__text {
+    margin-left: 70px;
+    color: #303433;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.work__stages {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.work__stages--stage {
+    margin: 35px;
+    max-width: 165px;
+    background-color: #F3F8FB;;
+    padding: 61px 2px 62px;
+    border-radius: 60%;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.work__stages--stage:hover {
+    background-color: #69C87C;
+}
+
+
 .client {
     width: 100%;
     display: flex;
@@ -252,6 +293,7 @@ main {
 .connect{
     width: 100%;
     padding-left: 130px;
+    padding-bottom: 60px;
 }
 
 .connectWork {
@@ -259,7 +301,7 @@ main {
 }
 
 .connect__text {
-    max-width: 360px;
+    max-width: 300px;
     padding-right: 400px;
     color: #303433;
     font-size: 20px;
@@ -270,6 +312,31 @@ main {
 
 .conect__form {
 
+}
+
+.connect__form--line {
+    margin: 18px;
+    margin-left: 0;
+    border: none;
+    border-bottom: 1px solid #B3C1C8;
+    color: #9BA6AC;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.connect__form--button {
+    margin-top: 10px;
+    border: none;
+    border-radius: 3px;
+    background: #69C87C;
+    padding: 7px 36px 8px 38px; 
+    color: #FFF;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px;
 }
 
 .footer {
