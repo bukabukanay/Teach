@@ -1,0 +1,31 @@
+/* fonts import */
+/* Roboto - regular 400 */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@font-face {
+    src: url("GraphikLCG-Regular.ttf");
+    font-family: GraphikLCG;
+}
+
+ /*zero style*/
+/** {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    box-sizing: border-box;*/
+/*}*/
+
+
+/* footer */
+
+footer {
+    background: #F3F8FB;
+    max-height: 100px;
+    width: 100%;
+    padding: 50px 150px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
