@@ -371,3 +371,31 @@ main {
 .examples__button {
     transform: rotate(270deg);
 }
+
+.result {
+    display: flex;
+    max-width: 100%;
+    background-color: #69C87C;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.result__about {
+    display: inline-block;
+    max-width: 60%;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px;
+}
+
+.result__about--circle {
+    display: flex;
+    justify-content: space-between;
+}
+
+
