@@ -377,20 +377,26 @@ main {
     max-width: 100%;
     background-color: #69C87C;
     color: #FFF;
-    font-size: 18px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: 30px;
+    padding: 70px;
 }
 
 .result__about {
     display: inline-block;
     max-width: 60%;
     color: #FFF;
-    font-size: 16px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: 35px;
+    padding-left: 130px;
+}
+
+.result__about--text {
+    padding-bottom: 60px;
 }
 
 .result__about--circle {
@@ -398,4 +404,17 @@ main {
     justify-content: space-between;
 }
 
-
+.result__about--circle1 {
+    max-width: 150px;
+    background-color: #F3F8FB;;
+    padding: 30px 4px 30px 4px;
+    border-radius: 60%;
+    text-align: center;
+    text-decoration: none;
+    color: #303433;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    text-transform: uppercase;
+}
